@@ -8,6 +8,10 @@ header {
 	height: 100vh;
 	width: 200px;
 
+	& img {
+		width: 90%;
+	}
+
 	& nav {
 		border: 1px solid yellow;
 
@@ -30,10 +34,6 @@ header {
 				}
 			}
 		}
-	}
-
-	& img {
-		width: 90%;
 	}
 
 }
