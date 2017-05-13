@@ -1,7 +1,29 @@
+:root {
+	--primary-color: 	rgb(88,33,18);
+	--secondary-color: 	rgb(242,200,121);
+	--tertiary-color: 	rgb(165,66,26);
+	--black: 			rgb(0,0,0);
+	--white: 			rgb(255,255,255);
+	--text-color: 		rgb(78,78,78);
+}
+
 html, body {
-	background: black;
-	font-family: sans-serif;
-	color: white;;
+	background: var(--white);
+	color: var(--text-color);
+	font-family: 'Merriweather', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
 }
 
 footer {
